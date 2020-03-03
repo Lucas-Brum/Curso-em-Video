@@ -1,0 +1,13 @@
+print('\33[31mOlá, mundo!!!')
+print('\33[31;43mOlá, mundo!!!')
+print('\33[1;31;43mOlá, mundo!!!')
+print('\33[1;31;43mOlá, mundo!!!\33[m')
+print('\33[4;30;45mOlá, mundo!!!\33[m')
+print('Olá, mundo!!!')
+print('\33[30mOlá, mundo!!!\33[m')
+print('\33[37mOlá, mundo!!!\33[m')
+print('\33[7;30mOlá, mundo!!!\33[m')
+print('\33[7mOlá, mundo!!!\33[m')
+print('\33[1;31;43mOlá, \33[0;33mmundo!!!\33[m')
+nome = 'lucas'
+print('olá! muito prazer em te conheçer {}{}{}!'.format('\33[4;34m', nome, '\33[m'))

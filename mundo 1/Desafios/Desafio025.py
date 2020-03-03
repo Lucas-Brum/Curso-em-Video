@@ -1,0 +1,7 @@
+print('\33[1:45m-=-\33[m' * 20)
+print('Procura a palavra no nome digitado silva e retorna true e false caso encontre ou não...')
+print('\33[1:45m-=-\33[m' * 20)
+nome = str(input('Digite o seu nome: ')).strip()
+print('\33[1:45m-=-\33[m' * 20)
+print('silva' in nome.lower())
+print('\33[1:45m-=-\33[m' * 20)

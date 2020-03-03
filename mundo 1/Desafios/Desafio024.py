@@ -1,0 +1,7 @@
+print('\33[3:33m-=-\33[m' * 20)
+print('Procura a palavra santo no nome da cidade e retorna true e false caso encontre ou não...')
+print('\33[3:33m-=-\33[m' * 20)
+cidade = str(input('Digite o nome da sua cidade: '))
+print('\33[3:33m-=-\33[m' * 20)
+print('santo' in cidade.lower())
+print('\33[3:33m-=-\33[m' * 20)

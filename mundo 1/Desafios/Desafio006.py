@@ -1,0 +1,2 @@
+numero = float(input('Digite um numero: '))
+print('O dobro de \33[1:41m{}\33[m é \33[1:41m{}\33[m, o triplo é \33[1:41m{}\33[m,\n e a raiz quadrada é \33[1:31m{:.2f}'.format(numero, numero * 2, numero * 3, numero ** (1/2)))

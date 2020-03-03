@@ -1,0 +1,5 @@
+recebe_nome = str(input('O nome completo: '))
+nome = recebe_nome.strip()
+conta_espaços = nome.count(' ')
+print('Primeiro nome = \33[7:43m{}\33[m'.format(nome.split()[0]))
+print('Ultimo nome = \33[7:43m{}\33[m'.format(nome.split()[conta_espaços]))
